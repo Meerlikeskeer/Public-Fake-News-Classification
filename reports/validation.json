@@ -1,0 +1,308 @@
+{
+  "protocol": "Fixed website train/validation split; no held-out test evaluation",
+  "train_sha256": "5371727cefcfc8edd40c5460ea864993945796da3cea32e6d223c01f7f23ba86",
+  "validation_sha256": "074c9c7b5385eb04fe54c1444bfbfd17b5eac8d513bf8571797406fdab626576",
+  "results": {
+    "domain": {
+      "metadata": {
+        "format_version": 1,
+        "python": "3.12.14",
+        "sklearn": "1.7.2",
+        "numpy": "2.5.4",
+        "mode": "domain",
+        "seed": 42,
+        "embeddings": false,
+        "labels": {
+          "0": "real",
+          "1": "fake"
+        }
+      },
+      "features": 13,
+      "train": {
+        "accuracy": 0.6303696303696303,
+        "precision_fake": 0.9029850746268657,
+        "recall_fake": 0.25313807531380755,
+        "f1_fake": 0.3954248366013072,
+        "confusion_matrix": [
+          [
+            1020,
+            26
+          ],
+          [
+            714,
+            242
+          ]
+        ],
+        "records": 2002
+      },
+      "validation": {
+        "accuracy": 0.5533980582524272,
+        "precision_fake": 0.5272727272727272,
+        "recall_fake": 0.20567375886524822,
+        "f1_fake": 0.29591836734693877,
+        "confusion_matrix": [
+          [
+            142,
+            26
+          ],
+          [
+            112,
+            29
+          ]
+        ],
+        "records": 309
+      }
+    },
+    "keyword": {
+      "metadata": {
+        "format_version": 1,
+        "python": "3.12.14",
+        "sklearn": "1.7.2",
+        "numpy": "2.5.4",
+        "mode": "keyword",
+        "seed": 42,
+        "embeddings": false,
+        "labels": {
+          "0": "real",
+          "1": "fake"
+        }
+      },
+      "features": 21,
+      "train": {
+        "accuracy": 0.8156843156843157,
+        "precision_fake": 0.7675478577939836,
+        "recall_fake": 0.8807531380753139,
+        "f1_fake": 0.8202630297126157,
+        "confusion_matrix": [
+          [
+            791,
+            255
+          ],
+          [
+            114,
+            842
+          ]
+        ],
+        "records": 2002
+      },
+      "validation": {
+        "accuracy": 0.7281553398058253,
+        "precision_fake": 0.6524064171122995,
+        "recall_fake": 0.8652482269503546,
+        "f1_fake": 0.7439024390243902,
+        "confusion_matrix": [
+          [
+            103,
+            65
+          ],
+          [
+            19,
+            122
+          ]
+        ],
+        "records": 309
+      }
+    },
+    "bow": {
+      "metadata": {
+        "format_version": 1,
+        "python": "3.12.14",
+        "sklearn": "1.7.2",
+        "numpy": "2.5.4",
+        "mode": "bow",
+        "seed": 42,
+        "embeddings": false,
+        "labels": {
+          "0": "real",
+          "1": "fake"
+        }
+      },
+      "features": 300,
+      "train": {
+        "accuracy": 0.9195804195804196,
+        "precision_fake": 0.8584310189359784,
+        "recall_fake": 0.99581589958159,
+        "f1_fake": 0.9220338983050848,
+        "confusion_matrix": [
+          [
+            889,
+            157
+          ],
+          [
+            4,
+            952
+          ]
+        ],
+        "records": 2002
+      },
+      "validation": {
+        "accuracy": 0.7540453074433657,
+        "precision_fake": 0.6666666666666666,
+        "recall_fake": 0.9219858156028369,
+        "f1_fake": 0.7738095238095238,
+        "confusion_matrix": [
+          [
+            103,
+            65
+          ],
+          [
+            11,
+            130
+          ]
+        ],
+        "records": 309
+      }
+    },
+    "combined": {
+      "metadata": {
+        "format_version": 1,
+        "python": "3.12.14",
+        "sklearn": "1.7.2",
+        "numpy": "2.5.4",
+        "mode": "combined",
+        "seed": 42,
+        "embeddings": false,
+        "labels": {
+          "0": "real",
+          "1": "fake"
+        }
+      },
+      "features": 321,
+      "train": {
+        "accuracy": 0.942057942057942,
+        "precision_fake": 0.8992395437262357,
+        "recall_fake": 0.9895397489539749,
+        "f1_fake": 0.9422310756972112,
+        "confusion_matrix": [
+          [
+            940,
+            106
+          ],
+          [
+            10,
+            946
+          ]
+        ],
+        "records": 2002
+      },
+      "validation": {
+        "accuracy": 0.8058252427184466,
+        "precision_fake": 0.7341040462427746,
+        "recall_fake": 0.900709219858156,
+        "f1_fake": 0.8089171974522293,
+        "confusion_matrix": [
+          [
+            122,
+            46
+          ],
+          [
+            14,
+            127
+          ]
+        ],
+        "records": 309
+      }
+    },
+    "glove": {
+      "metadata": {
+        "format_version": 1,
+        "python": "3.12.14",
+        "sklearn": "1.7.2",
+        "numpy": "2.5.4",
+        "mode": "glove",
+        "seed": 42,
+        "embeddings": true,
+        "labels": {
+          "0": "real",
+          "1": "fake"
+        }
+      },
+      "features": 300,
+      "train": {
+        "accuracy": 0.906093906093906,
+        "precision_fake": 0.8548983364140481,
+        "recall_fake": 0.9675732217573222,
+        "f1_fake": 0.9077526987242395,
+        "confusion_matrix": [
+          [
+            889,
+            157
+          ],
+          [
+            31,
+            925
+          ]
+        ],
+        "records": 2002
+      },
+      "validation": {
+        "accuracy": 0.7864077669902912,
+        "precision_fake": 0.7450980392156863,
+        "recall_fake": 0.8085106382978723,
+        "f1_fake": 0.7755102040816326,
+        "confusion_matrix": [
+          [
+            129,
+            39
+          ],
+          [
+            27,
+            114
+          ]
+        ],
+        "records": 309
+      }
+    },
+    "combined_glove": {
+      "metadata": {
+        "format_version": 1,
+        "python": "3.12.14",
+        "sklearn": "1.7.2",
+        "numpy": "2.5.4",
+        "mode": "combined",
+        "seed": 42,
+        "embeddings": true,
+        "labels": {
+          "0": "real",
+          "1": "fake"
+        }
+      },
+      "features": 621,
+      "train": {
+        "accuracy": 0.942057942057942,
+        "precision_fake": 0.9022988505747126,
+        "recall_fake": 0.9853556485355649,
+        "f1_fake": 0.942,
+        "confusion_matrix": [
+          [
+            944,
+            102
+          ],
+          [
+            14,
+            942
+          ]
+        ],
+        "records": 2002
+      },
+      "validation": {
+        "accuracy": 0.8252427184466019,
+        "precision_fake": 0.7514450867052023,
+        "recall_fake": 0.9219858156028369,
+        "f1_fake": 0.8280254777070064,
+        "confusion_matrix": [
+          [
+            125,
+            43
+          ],
+          [
+            11,
+            130
+          ]
+        ],
+        "records": 309
+      }
+    }
+  },
+  "embeddings_sha256": "91125602f730fea7ca768736c6f442e668b49db095682bf2aad375db061c21ed"
+}

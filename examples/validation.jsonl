@@ -1,0 +1,8 @@
+{"url": "validation-0.example.com", "html": "<html><head><meta name=\"description\" content=\"sports finance report community\"></head><body>sports finance report community</body></html>", "label": 0}
+{"url": "validation-1.example.news", "html": "<html><head><meta name=\"description\" content=\"scandal exposed cover-up rumor\"></head><body>scandal exposed cover-up rumor</body></html>", "label": 1}
+{"url": "validation-2.example.com", "html": "<html><head><meta name=\"description\" content=\"sports finance report community\"></head><body>sports finance report community</body></html>", "label": 0}
+{"url": "validation-3.example.news", "html": "<html><head><meta name=\"description\" content=\"scandal exposed cover-up rumor\"></head><body>scandal exposed cover-up rumor</body></html>", "label": 1}
+{"url": "validation-4.example.com", "html": "<html><head><meta name=\"description\" content=\"sports finance report community\"></head><body>sports finance report community</body></html>", "label": 0}
+{"url": "validation-5.example.news", "html": "<html><head><meta name=\"description\" content=\"scandal exposed cover-up rumor\"></head><body>scandal exposed cover-up rumor</body></html>", "label": 1}
+{"url": "validation-6.example.com", "html": "<html><head><meta name=\"description\" content=\"sports finance report community\"></head><body>sports finance report community</body></html>", "label": 0}
+{"url": "validation-7.example.news", "html": "<html><head><meta name=\"description\" content=\"scandal exposed cover-up rumor\"></head><body>scandal exposed cover-up rumor</body></html>", "label": 1}
